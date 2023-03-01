@@ -1,0 +1,333 @@
+body{
+    margin: 0;
+}
+#booking-sheet{
+    background-color: #0081C9;
+}
+#custom-sheet{
+    background-color: #0081C9;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    margin: 0;
+}
+.header{
+    position:relative;
+    text-align: center;
+    margin: 0;
+    
+    height: 800px;
+    background-image: url("https://wallpaperaccess.com/full/1192242.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.navbar-brand{
+    color:#fff;
+    font-family: 'GFS Didot', serif;
+
+    font-size: 4rem;
+    font-weight: 900;
+}
+.navbar-brand img{
+    width: 100px;
+    height: 55px;
+}
+.navbar-brand:hover{
+    color: #fff;
+}
+.navbar-brand span{
+    color:#fff;
+    font-size: 2rem;
+}
+
+
+.nav-item a{
+    font-size: 1rem;
+    font-weight: 500;
+    color:#fff;
+    font-weight: 700;
+}
+.nav-item a:hover{
+    color: aqua;
+}
+.row{
+    text-align: center;
+}
+.row p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+
+}
+.dropdown-menu a:hover{
+    color: #000;
+}
+.dropdown-menu{
+    background-color:#0081C9;
+    
+}
+#quotes{
+    text-align: end;
+}
+#quotes h2{
+    margin-top: 4rem;
+    color:#fff;
+    font-family: 'GFS Didot', serif;
+    font-size: 2.5rem;
+font-weight: 900;
+}
+.enquiry{
+    color: black;
+}
+/* Enquirey -Form */
+.enq-form{
+    display: flex;
+}
+.enq-form{
+display: flex;
+}
+.person-country{
+    display: flex;
+}
+/* Membership */
+
+.package-section{
+    text-align: center;
+    /* background-color:#E9F8F9; */
+    background-color: white;
+    padding-top: 125px;
+}
+.package-section h4{
+    font-size: 1rem;
+}
+.package-section h3{
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+.card-header{
+    color: blue;
+}
+
+/* package-section  */
+#booking{
+    text-align: center;
+}
+#booking h3{
+    
+    font-family: 'Ubuntu', sans-serif;
+        font-size: 1.75rem;
+    color: black;
+}
+
+#booking p{
+    color: #aaa;
+}
+.package-section .card-body {
+    text-align: left;
+}
+.card-body{
+    text-align: left;
+}
+.inner-img{
+ overflow: hidden;   
+
+}
+.inner-img img{
+    transition: all 1s ease-in-out;
+
+}
+.inner-img:hover img{
+    transform: scale(1.5);
+}
+
+/* Middle section  */
+#sub-heading {
+    font-family: 'Ubuntu', sans-serif;
+
+} 
+#sub-heading span{
+    color:#0081C9;
+}
+
+
+.middle-section{
+    /* background-color:#E9F8F9; */
+    background-color: white;
+    text-align: center;
+}
+.middle-section h3{
+    font-family: 'Ubuntu', sans-serif;
+   
+
+}
+
+#properties{
+    color:orange;
+    padding: 50px 0;
+}
+#properties .icons{
+    color:#aaa;
+
+}
+#properties .icons:hover{
+    color:#000;
+   
+}
+#properties h3{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    color: black;
+}
+#properties p{
+    color:black;
+}
+
+#gallery{
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+#testimonials-img{
+    width: 25%;
+    
+}
+#testimonials h3{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+/* GAllery */
+.photo-gallery{ 
+}
+.image{
+}
+.image img{
+ border-radius: 5px;
+padding: 15px;
+   width: 95%;
+   height: 250px;
+   transition:all 0.5s ease-in-out ;
+   box-shadow: 1px 2px 7px;
+   overflow: hidden;
+
+}
+.image:hover img{
+transform: scale(1.1);
+}
+.carousel-item {
+    margin: 50px 0 50px;
+}
+.carousel-item img{
+    border-radius: 5px;
+}
+
+/* Feed-back Section  */
+.feed-back{
+    text-align: center;
+    
+}
+.feed-back h3{
+    font-family: Merryweather,sans-serif;
+}
+.feed-back p{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+ .feed-back img{
+    border-radius: 100%;
+}
+.feed-back .button{
+  float: right;
+}
+
+/* footer section  */
+
+.footer-section{
+    margin-top: 100px;
+
+    background-color: cadetblue;
+
+    height: 150px;
+    width: 100%;
+}
+.footer-section .fa-arrow-up{
+    float: right;
+}
+
+.footer-section i{
+    margin:25px  ;
+
+}
+.footer-section i:hover{
+    color: white;
+}
+.footer-section a{
+    color: #000;
+      
+}
+
+
+/* booking sheet */
+.booking-form i:hover{
+    color:teal;
+}
+.details{
+    margin-left: auto;
+   margin-right: auto;
+}
+table{
+    border: 2px;
+}
+/* cutom sheet */
+.cutom-details{
+    margin-left: auto;
+   margin-right: auto;
+}
+.call-partner i:hover{
+    color: teal;
+
+}
+/* #premiumsheet */
+
+
+/*  */
+@media (max-width:1060px){
+
+
+    .footer-section{
+        height: 200px;
+
+    }
+
+
+
+}
+@media (max-width:535px){
+    .navbar-brand{
+        font-size: 2rem;
+    }
+    #quotes{
+        text-align: left;
+        
+    }
+    #quotes h2{
+        font-size: 1.5rem;
+        
+    }
+    .footer-section{
+        height: 250px;
+    }
+}
+@media (max-width:365px){
+    .footer-section{
+        height: 350px;
+    }
+}
